@@ -1,7 +1,15 @@
 aid: exowatt
 name: Exowatt
-description: Exowatt is a company surfaced as a portfolio company of a16z, felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Exowatt is a clean-energy technology company redefining power generation for the AI era. Its
+  flagship Exowatt P3 is a modular, dispatchable solar-thermal energy platform that captures solar
+  energy with proprietary Fresnel lenses and heat exchangers, stores it in a high-efficiency heat
+  battery, and dispatches electricity on demand via a proprietary heat engine, delivering up to 24
+  hours of dispatchable baseload power. The systems are factory-built in the USA from abundant,
+  low-cost materials without rare-earth minerals, and are aimed at energy-intensive customers such
+  as AI data centers and utilities. Backed by a16z and Felicis, Exowatt is added to the API
+  Evangelist network as a company profile; it currently publishes no public developer API or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/exowatt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,30 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67e1e99bdfdfadfce1b2adee/68b9c5bfa50348f9a1b4455a_Exowatt-SocialCard--.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Clean Energy
+- Solar
+- Energy Storage
+- Data Centers
+- Climate Tech
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/exowatt-domain-security.yml
 - type: Website
   url: https://exowatt.com
+- type: Blog
+  url: https://exowatt.com/blog
+- type: TermsOfService
+  url: https://exowatt.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://exowatt.com/terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
