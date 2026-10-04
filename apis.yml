@@ -50,7 +50,7 @@ tags:
 - Clean Energy
 - Solar
 - Energy Storage
-- Data-Center
+- Data Center
 - Climate Tech
 - Hardware
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Data Centers
 - Climate Tech
 - Hardware
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
